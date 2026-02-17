@@ -1,25 +1,30 @@
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { Streamdown } from 'streamdown';
-
-/**
- * All content in this page are only for example, replace with your own feature implementation
- * When building pages, remember your instructions in Frontend Best Practices, Design Guide and Common Pitfalls
+/*
+ * DESIGN: Industrial Brutalism — Raw Concrete
+ * Tondo Supply Landing Page
+ *
+ * Aesthetic: Industrial brutalism meets Manila street culture.
+ * Colors: Deep charcoal, raw concrete, Tondo Red accents.
+ * Typography: Bebas Neue (display) + Space Grotesk (body).
+ * Layout: Full-bleed asymmetric sections, diagonal crops, staggered masonry.
+ * Signature: Concrete texture overlay, diagonal red slashes, circular stamp motifs.
  */
-export default function Home() {
-  // If theme is switchable in App.tsx, we can implement theme toggling like this:
-  // const { theme, toggleTheme } = useTheme();
 
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import CollectionSection from "@/components/CollectionSection";
+import AboutSection from "@/components/AboutSection";
+import SustainabilitySection from "@/components/SustainabilitySection";
+import ContactSection from "@/components/ContactSection";
+
+export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <main>
-        {/* Example: lucide-react for icons */}
-        <Loader2 className="animate-spin" />
-        Example Page
-        {/* Example: Streamdown for markdown rendering */}
-        <Streamdown>Any **markdown** content</Streamdown>
-        <Button variant="default">Example Button</Button>
-      </main>
+    <div className="min-h-screen bg-charcoal text-offwhite overflow-x-hidden">
+      <Navbar />
+      <HeroSection />
+      <CollectionSection />
+      <AboutSection />
+      <SustainabilitySection />
+      <ContactSection />
     </div>
   );
 }
