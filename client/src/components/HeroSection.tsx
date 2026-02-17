@@ -7,7 +7,7 @@
 
 import { motion } from "framer-motion";
 
-const HERO_IMAGE = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663343684150/QInwuNFbYDkYczyu.jpg";
+const HERO_IMAGE = "/images/hero-bg.jpg";
 
 export default function HeroSection() {
   return (

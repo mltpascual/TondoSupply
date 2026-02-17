@@ -14,7 +14,7 @@ const products = [
     name: "I ♥ Tundo Tee",
     category: "T-Shirts",
     price: "₱599",
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663343684150/rbWfzwoKGkImOTJx.jpeg",
+    image: "/images/product-tundo-tee.jpeg",
     tag: "NEW DROP",
   },
   {
@@ -22,7 +22,7 @@ const products = [
     name: "MSTR Script Tee",
     category: "T-Shirts",
     price: "₱549",
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663343684150/mSIvnCYvNIIuXoLo.jpg",
+    image: "/images/product-mstr-tee.jpg",
     tag: "BESTSELLER",
   },
   {
@@ -30,7 +30,7 @@ const products = [
     name: "Tundo Script Jersey",
     category: "Jerseys",
     price: "₱699",
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663343684150/PQRNGLGdfSMVcGSP.jpeg",
+    image: "/images/product-tundo-jersey.jpeg",
     tag: null,
   },
   {
@@ -38,7 +38,7 @@ const products = [
     name: "Tundo Red Script Tee",
     category: "T-Shirts",
     price: "₱549",
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663343684150/DIcoADVVjUIbuaMn.jpg",
+    image: "/images/product-red-tee.jpg",
     tag: "LIMITED",
   },
 ];

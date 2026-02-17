@@ -6,7 +6,7 @@
 
 import { motion } from "framer-motion";
 
-const LIFESTYLE_IMAGE = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663343684150/HFDesxIvtbURNADX.jpg";
+const LIFESTYLE_IMAGE = "/images/about-lifestyle.jpg";
 
 const stats = [
   { value: "50K+", label: "Community" },
